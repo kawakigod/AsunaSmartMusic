@@ -33,7 +33,7 @@ Want play music on vcg?, add me to your group.**
                     )]
             ]
         ),
-     disable_web_page_preview=True
+        disable_web_page_preview=True
     )
 
 @Client.on_message(filters.command(["start", f"start@{BOT_USERNAME}"]) & ~filters.private & ~filters.channel)
